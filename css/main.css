@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap');
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/*  styles go here */
+html {
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: 'PT Sans Narrow', 'Helvetica', sans-serif;
+}
+body{
+    background-color: #E6E4CE;
+    color: #273447;
+}
+ul.biline{
+    width: 800px;
+    margin: 0 auto;
+    height: 74px;
+    list-style-type: none;
+    text-align: center;
+}
+ul.biline li{
+    display: inline-block;
+    margin: 0 64px;
+    color: #DE961B;
+    font-size: 18px;
+    padding: 10px;
+} 
+.content{
+    border-radius: 40px;
+    box-shadow: 0 0 0 10px #FFD268, 0 0 0 20px #DE961B, 0 0 0 30px #97435B;
+    width: 800px;
+    min-height: 900px;
+    margin: 0 auto;
+    background-image: url('../img/patrick-bg.jpg');
+    background-size: cover;
+}
+ul.contact{
+    width: 400px;
+    height: 42px;
+    background: #97435B;
+    border-radius: 16px 0 0 16px;
+    list-style-type: none;
+    text-align: left;
+    float: right;
+    margin: 42px -30px 0 0;
+    margin-right: -30px;
+    box-shadow: -10px 10px #DE961B, -20px 20px #FFD268;
+    padding-left: 16px;
+}
+ul.contact li{
+    display: inline-block;
+    padding: 6px 8px;
+}
+ul.contact li a{
+    color: #E6E4CE;
+    font-size: 24px;
+}
+
+/* fonts */
+h1, h2, h3, h4, h5{
+    font-weight: 400;
+}
+h1{
+    margin: 12px;
+}
+h1 img{
+    width: 230px;
+    padding-left: 432px;
+}
+h1 span{
+    display: none;
+}
+h2{
+    font-size: 16px;
+    margin: 0px;
+}
+h3{
+    font-size: 16px;
+    margin: 0px;
+    color: #97435B;
+}
+.h1{
+    font-size: 18px;
+    padding-left: 332px;
+    padding-top: 48px;
+}
+.h3{
+    font-size: 18px;
+    padding-left: 456px;
+    padding-top: 0px;
+}
+.description{
+    padding-top: 64px;
+    clear: both;
+}
+.p1 h3, .p2 h3{
+    font-size: 18px;
+}
+.p1 p, .p2, p{
+        margin-top: 0px;
+}
+.p1{
+    width: 292px;
+    padding-left: 460px;
+}
+.p2{
+    width: 372px;
+    padding-top: 24px;
+    padding-left: 390px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Helper classes */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+    display: inline-block;
+}
+.bold{
+    font-weight: 700;
+}
+
+
+
+
+
