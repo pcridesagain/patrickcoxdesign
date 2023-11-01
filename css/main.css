@@ -64,17 +64,28 @@ body{
 ul.biline{
     width: 800px;
     margin: 0 auto;
+    padding: 0 0 0 0;
     height: 74px;
     list-style-type: none;
     text-align: center;
 }
+ul.subp{
+    height: 44px;
+}
 ul.biline li{
     display: inline-block;
-    margin: 0 64px;
+    margin: 0 10px;
     color: #DE961B;
     font-size: 18px;
     padding: 10px;
 } 
+ul.biline li a {
+    color: #DE961B;
+    text-decoration: none;
+}
+ul.biline .home, ul.biline a:hover {
+    color: #97435B;
+}
 .content{
     border-radius: 40px;
     box-shadow: 0 0 0 10px #FFD268, 0 0 0 20px #DE961B, 0 0 0 30px #97435B;
@@ -83,6 +94,12 @@ ul.biline li{
     margin: 0 auto;
     background-image: url('../img/patrick-bg.jpg');
     background-size: cover;
+}
+.stripe{
+    background-image: linear-gradient(0deg, #ffd268 16.67%, #de961b 16.67%, #de961b 33.33%, #97435b 33.33%, #97435b 50%, #ffd268 50%, #ffd268 66.67%, #de961b 66.67%, #de961b 83.33%, #97435b 83.33%, #97435b 100%);
+    background-size: 60.00px 60.00px;
+    width: 100%;
+    height: 30px;
 }
 ul.contact{
     width: 400px;
